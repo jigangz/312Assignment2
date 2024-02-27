@@ -37,10 +37,10 @@ public class DialogChoice : MonoBehaviour
                 SceneManager.LoadScene("Act4"); // Load the scene associated with option 1
                 break;
             case 2:
-                SceneManager.LoadScene("GameOver"); // Load the scene associated with option 2
+                SceneManager.LoadScene("Endingone"); // Load the scene associated with option 2
                 break;
             case 3:
-                SceneManager.LoadScene("GameOver"); // Load the scene associated with option 3
+                SceneManager.LoadScene("Endingtwo"); // Load the scene associated with option 3
                 break;
         }
     }
