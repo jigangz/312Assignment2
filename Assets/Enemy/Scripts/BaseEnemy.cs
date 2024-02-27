@@ -14,6 +14,7 @@ public class BaseEnemy : MonoBehaviour
 
     public bool drawEnemyWanderRadius = true;
 
+
     void Start()
     {
         startPosition = transform.position; 
@@ -89,7 +90,21 @@ public class BaseEnemy : MonoBehaviour
         if (other.gameObject == player)
         {
             Debug.Log("Enemy has collided with the player!");
-            // 在这里处理玩家受到攻击的逻辑
+           
+            GameObject inGameUI = GameObject.Find("InGameUI");
+            if (inGameUI != null)
+            {
+                HealthManager healthManager = inGameUI.GetComponent<HealthManager>();
+                if (healthManager != null)
+                {
+                    healthManager.ReduceHP(5); // 假设每次碰撞减少10点HP
+                }
+                else
+                {
+                    Debug.LogError("HealthManager script not found on InGameUI object.");
+                }
+            }
+         
         }
     }
 }

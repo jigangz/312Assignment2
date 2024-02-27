@@ -56,7 +56,11 @@ public class PlayerAttack : MonoBehaviour
         BoxCollider2D collider = attackCollider.AddComponent<BoxCollider2D>();
         collider.size = new Vector2(attackSize, attackSize);
         collider.isTrigger = true;
-        attackCollider.AddComponent<AttackCollider>();
+
+        // attackCollider.AddComponent<AttackCollider>();
+        AttackCollider attackScript = attackCollider.AddComponent<AttackCollider>();
+        attackScript.knockbackForce = direction * attackScript.knockbackForce.magnitude; // 设置击退力方向和大小
+
         Destroy(attackCollider, 0.5f);
     }
 

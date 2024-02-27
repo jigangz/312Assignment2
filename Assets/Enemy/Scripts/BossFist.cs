@@ -95,6 +95,19 @@ public class BossFist : MonoBehaviour
                 Debug.Log("fisted!");
                 // 这里可以添加对玩家的影响，比如减少生命值等
                 //Destroy(gameObject); 
+                GameObject inGameUI = GameObject.Find("InGameUI");
+                if (inGameUI != null)
+                {
+                    HealthManager healthManager = inGameUI.GetComponent<HealthManager>();
+                    if (healthManager != null)
+                    {
+                        healthManager.ReduceHP(10); // 假设每次碰撞减少10点HP
+                    }
+                    else
+                    {
+                        Debug.LogError("HealthManager script not found on InGameUI object.");
+                    }
+                }
             }
         }
     }
