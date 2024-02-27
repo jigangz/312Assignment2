@@ -11,46 +11,52 @@ public class CharacterController2D : MonoBehaviour
     public Vector2 lastMotionVector;
     Animator animator;
     public bool moving;
-    // Start is called before the first frame update
+
     void Awake()
     {
-       rigidbody2d = GetComponent<Rigidbody2D>(); 
+        rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-
     private void Update()
     {
-
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
-        motionVector = new Vector2(
-           horizontal,
-           vertical
-            
-            );
+        motionVector = new Vector2(horizontal, vertical);
+        moving = horizontal != 0 || vertical != 0;
+
         animator.SetFloat("horizontal", horizontal);
         animator.SetFloat("vertical", vertical);
-        moving = horizontal != 0 || vertical != 0;
         animator.SetBool("moving", moving);
-        if (horizontal !=0 || vertical !=0)
+
+        if (moving)
         {
-            lastMotionVector = new Vector2(vertical, horizontal).normalized;
-            animator.SetFloat("lastHorizontal", horizontal);
-            animator.SetFloat("lastVertical", vertical);
+            lastMotionVector = motionVector.normalized;
+            animator.SetFloat("lastHorizontal", lastMotionVector.x);
+            animator.SetFloat("lastVertical", lastMotionVector.y);
+        }
+
+        // Check for mining action
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+        {
+            TriggerMiningAnimation();
         }
     }
-
 
     void FixedUpdate()
     {
         Move();
     }
+
     private void Move()
     {
-        rigidbody2d.velocity = motionVector*speed;
-    
+        rigidbody2d.velocity = motionVector * speed;
+    }
+
+    private void TriggerMiningAnimation()
+    {
+        // Trigger the mining animation
+        animator.SetTrigger("isMining");
     }
 }
