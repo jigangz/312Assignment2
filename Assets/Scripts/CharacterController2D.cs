@@ -6,11 +6,13 @@ using UnityEngine;
 public class CharacterController2D : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
-    [SerializeField] float speed = 2.0f;
-    Vector2 motionVector;
+    [SerializeField] private float speed = 2.0f;
+    [SerializeField] private float acceleration = 1.0f; // 加速度
+    private Vector2 motionVector;
     public Vector2 lastMotionVector;
     Animator animator;
     public bool moving;
+    public bool isMining = false;
 
     void Awake()
     {
@@ -20,43 +22,72 @@ public class CharacterController2D : MonoBehaviour
 
     private void Update()
     {
+        HandleInput();
+        // 打印当前isMining的值
+        Debug.Log($"Update - isMining: {isMining}");
+    }
+
+    private void FixedUpdate()
+    {
+        if (!isMining)
+        {
+            MoveCharacter();
+        }
+        else
+        {
+            // 确保角色完全停止
+            rigidbody2d.velocity = Vector2.zero;
+        }
+    }
+
+    private void HandleInput()
+    {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
-
         motionVector = new Vector2(horizontal, vertical);
-        moving = horizontal != 0 || vertical != 0;
+        moving = motionVector.sqrMagnitude > 0;
 
-        animator.SetFloat("horizontal", horizontal);
-        animator.SetFloat("vertical", vertical);
-        animator.SetBool("moving", moving);
-
-        if (moving)
+        if (!isMining)
         {
-            lastMotionVector = motionVector.normalized;
-            animator.SetFloat("lastHorizontal", lastMotionVector.x);
-            animator.SetFloat("lastVertical", lastMotionVector.y);
-        }
+            animator.SetFloat("horizontal", horizontal);
+            animator.SetFloat("vertical", vertical);
+            animator.SetBool("moving", moving);
 
-        // Check for mining action
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
-        {
-            TriggerMiningAnimation();
+            if (moving)
+            {
+                lastMotionVector = motionVector.normalized;
+                animator.SetFloat("lastHorizontal", lastMotionVector.x);
+                animator.SetFloat("lastVertical", lastMotionVector.y);
+            }
+
+            // 检查采矿动作
+            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+            {
+                TriggerMiningAnimation();
+            }
         }
     }
 
-    void FixedUpdate()
+    private void MoveCharacter()
     {
-        Move();
-    }
-
-    private void Move()
-    {
-        rigidbody2d.velocity = motionVector * speed;
+        // 使用插值平滑移动
+        rigidbody2d.velocity = Vector2.Lerp(rigidbody2d.velocity, motionVector * speed, acceleration * Time.fixedDeltaTime);
     }
 
     private void TriggerMiningAnimation()
     {
-        // Trigger the mining animation
-        animator.SetTrigger("isMining");
+        Debug.Log("TriggerMiningAnimation called - Setting isMining to true");
+        animator.SetTrigger("startMining");
+        isMining = true;
+        rigidbody2d.velocity = Vector2.zero;
     }
+
+    public void EndMiningAnimation()
+    {
+        // 动画事件会调用这个方法
+        Debug.Log("EndMiningAnimation called - Setting isMining to false");
+        isMining = false;
+        // 其他你需要执行的代码
+    }
+
 }
