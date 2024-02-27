@@ -3,40 +3,28 @@ using UnityEngine;
 public class Lamp : MonoBehaviour
 {
     private bool hasInteracted = false; // 确保交互只发生一次
-    private bool isPlayerNear = false; // 检测玩家是否在灯笼附近
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) // 检测玩家标签
+        if (other.CompareTag("Player") && !hasInteracted) // 检测玩家标签，确保未曾交互
         {
-            isPlayerNear = true;
+            InteractWithLamp();
+            Debug.Log("Player entered lamp trigger zone.");
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            isPlayerNear = false;
-            Debug.Log("Player entered lamp trigger zone.");
+            Debug.Log("Player left lamp trigger zone."); // 玩家离开时记录日志
         }
     }
 
     void Update()
     {
-        // 玩家靠近并按下空格键时进行互动
-        if (isPlayerNear && Input.GetKeyDown(KeyCode.Space) && !hasInteracted)
-        {
-            InteractWithLamp();
-
-        }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("Space key pressed.");
-        }
-
         // 如果已经与灯笼交互且对话结束，显示选项
-        if (hasInteracted && !FindObjectOfType<DialogManager>().isDisplayingDialogue)
+        if (hasInteracted && !FindObjectOfType<DialogManager>().IsDisplayingDialogue)
         {
             FindObjectOfType<DialogManager>().ShowOptionsAfterInteraction();
         }
@@ -48,14 +36,13 @@ public class Lamp : MonoBehaviour
         hasInteracted = true;
         string[] dialogLinesAfterLamp = new string[] {
             "oh hey you found me! ",
-            "WHo are you??? ",
+            "Who are you??? ",
             "I am the Genie of the lamp! I am guessing that there’s a movie made about me... so I am assuming that you know me. ",
-            "So i’ll skip introduction. Just so you know I can’t help you get out of this cave. ",
-            "WHAT?? That’s a bad news....  ",
+            "So I’ll skip introduction. Just so you know I can’t help you get out of this cave. ",
+            "WHAT?? That’s bad news....  ",
             "yeah, yeah, uh, but what I can do is that I can help you destroy stuff? Like do you want to kill that guy who put you here? "
         };
 
         FindObjectOfType<DialogManager>().TriggerInitialDialog(dialogLinesAfterLamp);
     }
 }
-

@@ -93,7 +93,7 @@ public class DialogManager : MonoBehaviour
                 SceneManager.LoadScene("SceneNameForOption1");
                 break;
             case 2:
-                SceneManager.LoadScene("Maze");
+                SceneManager.LoadScene("Act5");
                 break;
         }
     }

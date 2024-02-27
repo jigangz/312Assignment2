@@ -1392,6 +1392,7 @@ MonoBehaviour:
   optionsPanel: {fileID: 364178855}
   option1Button: {fileID: 335272885}
   option2Button: {fileID: 36573473}
+  isDisplayingDialogue: 0
 --- !u!4 &920769376
 Transform:
   m_ObjectHideFlags: 0
@@ -3814,6 +3815,10 @@ PrefabInstance:
     - target: {fileID: 7361432585513220224, guid: 54fb78e943f4d714084f89d6e56a7577, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308495954656483293, guid: 54fb78e943f4d714084f89d6e56a7577, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8920911610199889316, guid: 54fb78e943f4d714084f89d6e56a7577, type: 3}
       propertyPath: m_Name
