@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 478300c57cd3a3549a2f41050c9dddc3
+  - enabled: 1
+    path: Assets/Scenes/Act5.unity
+    guid: a6bbe449f66ae414fba30afea610f1db
+  - enabled: 1
+    path: Assets/Enemy/Scenes/BossScene.unity
+    guid: 0c921f1cbee15b14680f8c5aa89ef417
   m_configObjects: {}

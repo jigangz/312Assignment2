@@ -9,7 +9,7 @@ public class BossEntrance : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Boss");
+            SceneManager.LoadScene("BossScene");
         }
     }
 }

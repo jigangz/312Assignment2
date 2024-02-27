@@ -143,3 +143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcdeb0daccdcff74f8d0053f1388c7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lampPrefab: {fileID: 8920911610199889316, guid: 54fb78e943f4d714084f89d6e56a7577, type: 3}
+  cavePrefab: {fileID: 888405936282708129, guid: 37515443dfd852b45a889224607c1f2e, type: 3}
+  holePrefab: {fileID: 1136070954946448592, guid: 962273a4c66a8eb4e944e6ca9acb7679, type: 3}
+  isSpecial: 0
+  isSuper: 0
+  isSpicy: 0
