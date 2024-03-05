@@ -17,7 +17,7 @@ public class SceneLoader : MonoBehaviour
     }
     public void LoadBackGroundScene()
     {
-        SceneManager.LoadScene("BackGround");
+        SceneManager.LoadScene("VideoIntro");
     }
     public void LoadMainGameScene()
     {
