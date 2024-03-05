@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Lamp : MonoBehaviour
 {
-    private bool hasInteracted = false; // 确保交互只发生一次
+    private bool hasInteracted = false; // ??????????????????
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !hasInteracted) // 检测玩家标签，确保未曾交互
+        if (other.CompareTag("Player") && !hasInteracted) // ??????????????????????????
         {
             InteractWithLamp();
             Debug.Log("Player entered lamp trigger zone.");
@@ -17,13 +17,13 @@ public class Lamp : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player left lamp trigger zone."); // 玩家离开时记录日志
+            Debug.Log("Player left lamp trigger zone."); // ??????????????????
         }
     }
 
     void Update()
     {
-        // 如果已经与灯笼交互且对话结束，显示选项
+        // ??????????????????????????????????????
         if (hasInteracted && !FindObjectOfType<DialogManager>().IsDisplayingDialogue)
         {
             FindObjectOfType<DialogManager>().ShowOptionsAfterInteraction();
@@ -35,12 +35,16 @@ public class Lamp : MonoBehaviour
         Debug.Log("Interacting with lamp...");
         hasInteracted = true;
         string[] dialogLinesAfterLamp = new string[] {
-            "oh hey you found me! ",
-            "Who are you??? ",
-            "I am the Genie of the lamp! I am guessing that there’s a movie made about me... so I am assuming that you know me. ",
-            "So I’ll skip introduction. Just so you know I can’t help you get out of this cave. ",
-            "WHAT?? That’s bad news....  ",
-            "yeah, yeah, uh, but what I can do is that I can help you destroy stuff? Like do you want to kill that guy who put you here? "
+
+            "Oh hey, you must be the new master, I presume?",
+            "Who are you?",
+            "I?m Genie of the lamp, I?ll skip my introduction because I am pretty sure you know who I am. I heard that there is a movie made about me. ",
+            "How did you know that there?s movie about you?",
+            "Um...ahem...well there?s always a way. ",
+            "Okay, so I know what you want. You want to escape the cave, right?",
+            "And I want to get out of this lamp. So let?s make a deal. ",
+            "You go through that either of those doors and find a scroll with a spell.",
+            "I just need that spell to get out this lamp. Then I?ll help you get out of here!"
         };
 
         FindObjectOfType<DialogManager>().TriggerInitialDialog(dialogLinesAfterLamp);

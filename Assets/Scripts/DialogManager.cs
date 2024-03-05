@@ -23,7 +23,6 @@ public class DialogManager : MonoBehaviour
 
         string[] initialDialogLines = new string[] {
             "Where am I...? I think it will be wise for me to find that lamp. I think it will become useful. ...",
-            "HELP ALAD-WIN FIND THE LAMP! USE ARROW KEYS TO MOVE AND SPACEBAR TO INTERACT WITH AN OBJECT. LET¡¯S START WITH GETTING THE PICKAXE. ...",
             "Great! now you can use a pickaxe to break the rocks! Break the rocks to find a way out! "
         };
 

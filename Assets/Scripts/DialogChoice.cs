@@ -24,8 +24,8 @@ public class DialogChoice : MonoBehaviour
 
         // Set the text for each button
         option1Button.GetComponentInChildren<Text>().text = "Message Ja-fart & Apply for a job ";
-        option2Button.GetComponentInChildren<Text>().text = "Don¡¯t message Ja-fart ";
-        option3Button.GetComponentInChildren<Text>().text = "Don¡¯t go to school";
+        option2Button.GetComponentInChildren<Text>().text = "Don't message Ja-fart ";
+        option3Button.GetComponentInChildren<Text>().text = "Don't go to school";
     }
 
     public void ChooseOption(int option)
