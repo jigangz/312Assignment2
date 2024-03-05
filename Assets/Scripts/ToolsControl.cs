@@ -4,36 +4,40 @@ using UnityEngine;
 
 public class ToolsControl : MonoBehaviour
 {
-    // Start is called before the first frame update
     CharacterController2D character;
     Rigidbody2D rgbd2d;
     [SerializeField] float offsetDistance = 1f;
     [SerializeField] float sizeOfInteractableArea = 1.2f;
 
-
     private void Awake()
     {
         character = GetComponent<CharacterController2D>();
-        rgbd2d= GetComponent<Rigidbody2D>();
+        rgbd2d = GetComponent<Rigidbody2D>();
     }
+
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        // 检测WASD按键而不是鼠标点击
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D))
         {
-            UseTool();   
+            UseTool();
         }
     }
+
     private void UseTool()
     {
-        Vector2 position = rgbd2d.position+character.lastMotionVector * offsetDistance;
+        // 使用角色最后的移动向量来确定工具使用的位置
+        Vector2 position = rgbd2d.position + character.lastMotionVector * offsetDistance;
         Collider2D[] colliders = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
-        foreach (Collider2D c in colliders) {
-        ToolHit hit = c.GetComponent<ToolHit>();
+        foreach (Collider2D collider in colliders)
+        {
+            ToolHit hit = collider.GetComponent<ToolHit>();
             if (hit != null)
             {
-                hit.Hit();
-                break;
+                hit.Hit(); // 触发碰撞对象的Hit方法
+                break; // 如果一次只处理一个对象，则保留此break
             }
         }
     }
 }
+

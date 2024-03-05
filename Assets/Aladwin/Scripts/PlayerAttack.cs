@@ -22,25 +22,25 @@ public class PlayerAttack : MonoBehaviour
 
     void CheckInputAndUpdateDirection()
     {
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             animator.Play("AttackRight");
             lastAttackDirection = Vector2.right;
             CreateAttackCollider(Vector2.right);
         }
-        else if (Input.GetKeyDown(KeyCode.J))
+        else if (Input.GetKeyDown(KeyCode.A))
         {
             animator.Play("AttackLeft");
             lastAttackDirection = Vector2.left;
             CreateAttackCollider(Vector2.left);
         }
-        else if (Input.GetKeyDown(KeyCode.I))
+        else if (Input.GetKeyDown(KeyCode.W))
         {
             animator.Play("AttackUp");
             lastAttackDirection = Vector2.up;
             CreateAttackCollider(Vector2.up);
         }
-        else if (Input.GetKeyDown(KeyCode.K))
+        else if (Input.GetKeyDown(KeyCode.S))
         {
             animator.Play("AttackDown");
             lastAttackDirection = Vector2.down;

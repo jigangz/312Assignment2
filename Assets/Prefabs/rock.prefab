@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4147933867502524925}
   - component: {fileID: 6957554754081100464}
   - component: {fileID: 6420836568498026849}
+  - component: {fileID: 5910847367449840302}
   m_Layer: 0
   m_Name: rock
   m_TagString: Untagged
@@ -119,7 +120,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.25}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -130,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.79, y: 0.73}
+  m_Size: {x: 0.81, y: 0.32}
   m_EdgeRadius: 0
 --- !u!114 &6957554754081100464
 MonoBehaviour:
@@ -147,10 +148,16 @@ MonoBehaviour:
   lampPrefab: {fileID: 8920911610199889316, guid: 54fb78e943f4d714084f89d6e56a7577, type: 3}
   cavePrefab: {fileID: 888405936282708129, guid: 37515443dfd852b45a889224607c1f2e, type: 3}
   holePrefab: {fileID: 1136070954946448592, guid: 962273a4c66a8eb4e944e6ca9acb7679, type: 3}
+  NotePrefab: {fileID: 7699025674252239400, guid: 136a746512aef1d4e843c3200088b907, type: 3}
+  PaperPrefab: {fileID: 8680058744658894991, guid: 9ad07d0fe3d0ecd48b6dee7f7613e956, type: 3}
+  LetterPrefab: {fileID: 9206458312228856475, guid: 39b62ad96104859469771955f3f85f20, type: 3}
   destroySound: {fileID: 6420836568498026849}
   isSpecial: 0
   isSuper: 0
   isSpicy: 0
+  isNote: 0
+  isPaper: 0
+  isLetter: 0
 --- !u!82 &6420836568498026849
 AudioSource:
   m_ObjectHideFlags: 0
@@ -162,7 +169,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e5249103657bf3d4a9b0437b004a8466, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -247,3 +254,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5910847367449840302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8193678706635239184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab81f80997ec1ff4ba28d2759ffd0e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

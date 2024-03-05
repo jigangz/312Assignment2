@@ -24,8 +24,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: d91a362677cbbab449d92aec306a043c
   - enabled: 1
+    path: Assets/Scenes/BlueAct.unity
+    guid: d043bccdf5a019448a5e42d6221c1597
+  - enabled: 1
     path: Assets/Scenes/TimedMaze.unity
     guid: 010b2c089a781634cba93174d3bf2f8e
+  - enabled: 1
+    path: Assets/Scenes/RedAct.unity
+    guid: c51cb46f5d17d514a9ba88622b219c2c
   - enabled: 1
     path: Assets/Scenes/Boss.unity
     guid: 837d458966f18fd4db135b3bb7df10e6
@@ -33,11 +39,17 @@ EditorBuildSettings:
     path: Assets/Scenes/GameOver.unity
     guid: 478300c57cd3a3549a2f41050c9dddc3
   - enabled: 1
+    path: Assets/Scenes/VideoIntro.unity
+    guid: ce218ba55937db7479d8796d6d3a4fd8
+  - enabled: 1
     path: Assets/Scenes/Act5.unity
     guid: a6bbe449f66ae414fba30afea610f1db
   - enabled: 1
     path: Assets/Enemy/Scenes/BossScene.unity
     guid: 0c921f1cbee15b14680f8c5aa89ef417
+  - enabled: 1
+    path: Assets/Scenes/ChoiceGen.unity
+    guid: 29568c77ffeddc1478bdea3736bc0553
   - enabled: 1
     path: Assets/Enemy/Scenes/EnemyScene.unity
     guid: 64364510f1072ef488c3724a546c1144
