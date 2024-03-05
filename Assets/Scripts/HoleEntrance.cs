@@ -9,7 +9,7 @@ public class HoleEntrance : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("BossScene");
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
