@@ -34,19 +34,20 @@ public class Fireball : MonoBehaviour
             Debug.Log("Fireball has collided with the player!");
             // 这里可以添加对玩家的影响，比如减少生命值等
             //Destroy(gameObject); 
-            GameObject inGameUI = GameObject.Find("InGameUI");
+
+
+            // 扣血逻辑
+            GameObject inGameUI = GameObject.Find("Player Stat Bar");
             if (inGameUI != null)
             {
                 HealthManager healthManager = inGameUI.GetComponent<HealthManager>();
                 if (healthManager != null)
                 {
-                    healthManager.ReduceHP(5); // 假设每次碰撞减少10点HP
+                    healthManager.ReduceHP(5);
                 }
-                else
-                {
-                    Debug.LogError("HealthManager script not found on InGameUI object.");
-                }
+                
             }
+            
         }
     }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseEnemy : MonoBehaviour
+public class SlimKing : MonoBehaviour
 {
     public GameObject player;
     public float speed1 = 5f;
@@ -15,6 +15,8 @@ public class BaseEnemy : MonoBehaviour
     public bool drawEnemyWanderRadius = true;
 
     public int health = 3; // 敌人的生命值
+
+    public GameObject slimTalkCanvas; 
 
     void Start()
     {
@@ -29,21 +31,27 @@ public class BaseEnemy : MonoBehaviour
 
     void Update()
     {
-        float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
-        if (distanceToPlayer <= wanderRadius)
+        if (health > 0) // 当生命值大于0时，敌人可以移动
         {
-            isWandering = false;
-            MoveTowardsPlayer();
+            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer <= wanderRadius)
+            {
+                isWandering = false;
+                MoveTowardsPlayer();
+            }
+            else if (!isWandering)
+            {
+                StartCoroutine(Wander());
+            }
         }
-        else if (!isWandering)
+        else // 当生命值归零时，停止移动并激活SlimTalk画布
         {
-            StartCoroutine(Wander());
-        }
-
-        // 检查血量
-        if (health <= 0) 
-        {
-            Destroy(gameObject); 
+            StopAllCoroutines(); // 停止所有协程，包括Wander
+            isWandering = false; // 确保不再移向玩家
+            if (slimTalkCanvas != null)
+            {
+                slimTalkCanvas.SetActive(true); // 激活SlimTalk画布
+            }
         }
 
     }
