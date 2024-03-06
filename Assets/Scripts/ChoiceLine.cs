@@ -18,9 +18,9 @@ public class ChoiceLine : MonoBehaviour
         dialogPanel.SetActive(false);
 
         string[] initialDialogLines = new string[] {
-            "Pick a fking door . ...",
-            "HELP ALAD-WIN FIND THE LAMP! USE ARROW KEYS TO MOVE AND SPACEBAR TO INTERACT WITH AN OBJECT. LET¡¯S START WITH GETTING THE PICKAXE. ...",
-            "Great! now you can use a pickaxe to break the rocks! Break the rocks to find a way out! "
+            "Pick one door . ...",
+             "Blue represents your kindness, while red awakens your desire for slaughter",
+            //"Great! now you can use a pickaxe to break the rocks! Break the rocks to find a way out! "
         };
 
         TriggerInitialDialog(initialDialogLines);

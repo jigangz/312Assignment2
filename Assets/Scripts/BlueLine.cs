@@ -18,9 +18,9 @@ public class BlueLine : MonoBehaviour
         dialogPanel.SetActive(false);
 
         string[] initialDialogLines = new string[] {
-            "I saw the note you liar",
-            "HELP ALAD-WIN FIND THE LAMP! USE ARROW KEYS TO MOVE AND SPACEBAR TO INTERACT WITH AN OBJECT. LET¡¯S START WITH GETTING THE PICKAXE. ...",
-            "Great! now you can use a pickaxe to break the rocks! Break the rocks to find a way out! "
+            "Why you come back?",
+            "Oh, so you saw these notes.",
+            "Great!Now let's try the real game! "
         };
 
         TriggerInitialDialog(initialDialogLines);

@@ -18,9 +18,9 @@ public class RedLine : MonoBehaviour
         dialogPanel.SetActive(false);
 
         string[] initialDialogLines = new string[] {
-            "RED LINE ",
-            "HELP ALAD-WIN FIND THE LAMP! USE ARROW KEYS TO MOVE AND SPACEBAR TO INTERACT WITH AN OBJECT. LET¡¯S START WITH GETTING THE PICKAXE. ...",
-            "Great! now you can use a pickaxe to break the rocks! Break the rocks to find a way out! "
+            "Why you come back?",
+            "So these loser told you.",
+            "Well Well! Maybe let's try a real game! "
         };
 
         TriggerInitialDialog(initialDialogLines);

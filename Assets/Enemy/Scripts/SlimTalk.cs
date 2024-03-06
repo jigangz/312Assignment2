@@ -18,14 +18,16 @@ public class SlimTalk : MonoBehaviour
         // 初始化对话文本，这里可以替换为你的对话内容
         dialogues = new string[] {
             "*cough*...you...you must be the last victim of Genie.",
-            "Oh...you don't know. We, slimes, are the souls of the humans Genie killed...He needs to kill and eat 100 human bodies to get out of the lamp.",
+            "He is full of lies. We, slimes, are the souls of the humans Genie killed...",
+            "As your power, you can definitely defeat him!",
             "The back gate shall now be opened for you."
         };
 
         // 初始化按钮文本，确保数组长度与dialogues相匹配
         buttonLabels = new string[] {
             "The victim?", // 对应第一段对话
-            "what?", // 对应第二段对话
+            "What?", // 对应第二段对话
+            "I just wanna go...", // 对应第二段对话
             "Thank you." // 对应最后一段对话
         };
 

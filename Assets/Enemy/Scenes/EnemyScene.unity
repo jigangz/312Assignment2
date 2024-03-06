@@ -188,7 +188,7 @@ Transform:
   m_GameObject: {fileID: 1137709}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: 0.16, z: -10}
+  m_LocalPosition: {x: -0.03, y: 0.07, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1196,7 +1196,7 @@ MonoBehaviour:
   speed2: 1
   wanderRadius: 2
   drawEnemyWanderRadius: 1
-  health: 30
+  health: 25
   slimTalkCanvas: {fileID: 1586705491}
 --- !u!1 &650496281
 GameObject:
@@ -2283,7 +2283,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -2754,7 +2754,7 @@ Transform:
   m_GameObject: {fileID: 815222827}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: 0.16, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3694,7 +3694,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -4016,7 +4016,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -4103,7 +4103,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 19.88, y: 3.3, z: 0}
-  m_LocalScale: {x: 2.3544998, y: 2.3544998, z: 2.3544998}
+  m_LocalScale: {x: 4.518756, y: 4.518756, z: 4.518756}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1851043814}
@@ -4255,7 +4255,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1400, y: -128}
-  m_SizeDelta: {x: 600, y: 180}
+  m_SizeDelta: {x: 764.1, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1398657477
 MonoBehaviour:
@@ -7976,7 +7976,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -18299,7 +18299,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -18714,7 +18714,7 @@ Transform:
   m_GameObject: {fileID: 2035194275}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: 0.16, z: -10}
+  m_LocalPosition: {x: -0.03, y: 0.07, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

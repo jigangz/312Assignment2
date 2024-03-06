@@ -16,9 +16,13 @@ public class SimpleDialogManager : MonoBehaviour
         dialogPanel.SetActive(false);
 
         string[] initialDialogLines = {
-            "whoaaaaaaa what is that sound??? oh my it seems like the cave is caving in more!!!",
-            "hey... I think that rumble might have caused this maze-like structure in the cave. Keep breaking the rocks to find the way to the next level!",
-            "I¡¯ll just take some rest in the lamp. But hey, you can use the lamp to break the rocks if that helps you with anything! "
+           // "whoaaaaaaa what is that sound??? oh my it seems like the cave is caving in more!!!",
+           // "hey... I think that rumble might have caused this maze-like structure in the cave. Keep breaking the rocks to find the way to the next level!",
+           // "I¡¯ll just take some rest in the lamp. But hey, you can use the lamp to break the rocks if that helps you with anything! "
+
+             "Okay this seems like a mazz.",
+            "There must be some way out,Maybe I can try to braek these rock to see if there any thing under.",
+           // "I¡¯ll just take some rest in the lamp. But hey, you can use the lamp to break the rocks if that helps you with anything! "
         };
 
         StartDialog(initialDialogLines);
