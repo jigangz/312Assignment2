@@ -1,0 +1,1865 @@
+fileFormatVersion: 2
+guid: fcbcf0e681f51764cb9808f9f8ab4ec5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: little-slim-pink_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 156
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ede9b2a00ce794d9ea4e2ab81ae18f
+      internalID: -251981960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 154
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b38c2d3dbc39b74a83359aad26d7b36
+      internalID: 825942372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 156
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aaeb29d323e3346af1b19a44463a45
+      internalID: 279185737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 156
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f4ad52130bfeb4491f81c9f5da0baf
+      internalID: 1252375641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_4
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 154
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83cd1ef9d1891d43a4458ed08730996
+      internalID: 1926531980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 156
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c961ffd64378142bb662c558bc4d76
+      internalID: -1017687416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 154
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c90ef125e706c040924fb2dc12c15cb
+      internalID: 1053597019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 154
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e770e3ad26bfc49b6c44ca50cd5499
+      internalID: -438393293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 154
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b1edd3d02a6064abb5b92e59e3587e
+      internalID: 176591754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink-walk01
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 124
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad0b65ae6b246e42b3bdc94edca6523
+      internalID: -465446805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_10
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208784052ce56e74dbd5e892b1a0b6ce
+      internalID: 916021018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink-walk02
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 124
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17c1b27f481ee04ca864442bb54afe0
+      internalID: 199116919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink-walk03
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 124
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688599c56385d304b9706b93631da920
+      internalID: -1072604783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 88
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d191d95ecdbbb498003406993498c0
+      internalID: -1089020838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink-walk04
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 124
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c919dbe8b0eed034f9631dc2505c6f38
+      internalID: 1377348433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 110
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39afeb65a6d4ff44c86dc5bc35b5556d
+      internalID: 1266241442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink-walk05
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 124
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e02287617fc91f4dad39f0a5b3d0d9a
+      internalID: -1004910984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 132
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a061266e5698f8439a2e5b06045b1da
+      internalID: -1327079638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_18
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 132
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ce14dc368c2c847b9ee41329a70b3a
+      internalID: -677085668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 132
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189b5a149e3fb374b96fd305c54dcf20
+      internalID: 1440473119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_20
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 132
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25616a410a98934ebb4626ba249f126
+      internalID: 832165647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f1fb2230ec03240af67b6f26a4c2b0
+      internalID: 687992634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_22
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 132
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33988e996d511bf48b2d693e15c87b5c
+      internalID: 1663025568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_23
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 132
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ea02bcff3ecd64b98f61bfe73198e2
+      internalID: -2129295699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 88
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c170125740f7912439309fc492c819c3
+      internalID: 1588451510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 88
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79c8a84ea3d79e4f8f627ec1e0ae2b9
+      internalID: -1975180262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 88
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21a02c943bf1d94e82b22e8546b32fe
+      internalID: 1145882347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_27
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 110
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422c7a4c6db07b64589b063b599dc533
+      internalID: 189868806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_28
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 88
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae2d35722562944dbb4259bfbecc6fc
+      internalID: -340009901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_29
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e716c4b1e10fa429363ca633fa21bf
+      internalID: 107684950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bb3bbf473ee5b41bb9ec5dec16c38c
+      internalID: 58489933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04d34a38523d664ea7d372a091745f9
+      internalID: 1894643857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 110
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751bb2f93c4e03e47a2567528364a227
+      internalID: -1233389477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink-die01
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 92
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a95f21f136bab24ca58078db314c28f
+      internalID: 771633286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24868e6c2593ab49aecd337eae3b3d0
+      internalID: 1526199960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink-die02
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 92
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b790a9d8c2e6fbf4db852ccb79caaf40
+      internalID: 377670229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_36
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 88
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11509fe9650ab284a87c2cd6d451d097
+      internalID: -2108789748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink-die03
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 92
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd88402e03724274cb88820b23b87f5b
+      internalID: 1152301218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink-die04
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 92
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081842e1cda23a54c96949e03fdfba15
+      internalID: -464693629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a916a676d4a56468b1218c70f41bef
+      internalID: 148425595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_40
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4711e3bc60422044799267951ded849b
+      internalID: -1987067816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_41
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34dca92e285a8444b47cabca2e38b5d
+      internalID: 949006086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_42
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe220e6b32d5564e96dbcc0bd2502da
+      internalID: 1584104651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_43
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d88341d71554f84f899e124010266ac
+      internalID: 1261427443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_44
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 66
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358ee522d653efc46befead95fb385e1
+      internalID: -318999391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce689ba00b1f6ce47b2518cbda7b68cb
+      internalID: -1758629566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_46
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f071d1a4e4586a84491b2399906f4c4d
+      internalID: 879025424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_47
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46222d2a2882704e9699e7a77a328bc
+      internalID: -1531363848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb4af12d0c094746adc4bc2d267e35e
+      internalID: 1864808101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_49
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1ead478d70ecc4d830ff037ad57f3e
+      internalID: -123341193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_50
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13261da321e712d4f994a56ef05c61ac
+      internalID: -1315344381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e63267ee83697740b42bcb700628b46
+      internalID: 625826756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade215e2a21d2bb4f8ca57c6703b335e
+      internalID: 462275308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_53
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3311ed1a48e444091087f1495adb68
+      internalID: 1639684929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_54
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc56005da328b354db2eed1842c3258d
+      internalID: 842010406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_55
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c14b2518ebe844bbb78f34fcc0ae40
+      internalID: 1770005135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_56
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b605a5b692b161040b579aaae7024617
+      internalID: -978103592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_57
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4bfe110e78d014caf5124ae67b0fc2
+      internalID: 1142171268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_58
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad311779ef3acc5479e5e8c15326c3f4
+      internalID: -1331961638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_59
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf1e9f55a7e8f646a81e46713f2fc07
+      internalID: -2124668260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2959cdf14511b18439264904564b4374
+      internalID: -176372524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_61
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db23a6ae126e224382b4ecdbafc8390
+      internalID: -299363760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_62
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dda14572389794ca073cd10f959326
+      internalID: 1119248781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_63
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a0bb5b2bf58684eaa2c874d229e964
+      internalID: 96970859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_64
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba10a0a37a0df34695be3932180a4ad
+      internalID: -791408181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_65
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719f849551fe35a4a801320cef867982
+      internalID: 383330754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_66
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abc4055e4a6a2348851926a7b1c5889
+      internalID: 658928843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_67
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72babd767305e8e4f90af8ad2a139a18
+      internalID: 1547278917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c791843233a3444f8928ea634090c55
+      internalID: -1974130070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_69
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cabe8518afa76947af24d51eda95e7c
+      internalID: -1074111558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_70
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbed3f1780cddf449b0cacf27a5f1375
+      internalID: 939889696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_71
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d001ecc7cd1ade14c960c7f9ccea812b
+      internalID: 1916724705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_72
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 22
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adbe945664e6bb42a73db1eafe09bd5
+      internalID: 992808007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5189fb3ff530ed04caf2d6842ce8868d
+      internalID: -1466517024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_74
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca65829efa614540a2189f5c1eba747
+      internalID: 452824912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_75
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4250488d13a12a4f95291ecbc249610
+      internalID: -1000419829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_76
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6302e961e6680b43a8ead5869827980
+      internalID: 1854645978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_77
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34e0f0b1451a4747ba00fd618eddac5
+      internalID: -1517797981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: little-slim-pink_78
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdceae83f8c043547b603d419be5e8f1
+      internalID: -234411178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      little-slim-pink-die01: 771633286
+      little-slim-pink-die02: 377670229
+      little-slim-pink-die03: 1152301218
+      little-slim-pink-die04: -464693629
+      little-slim-pink-walk01: -465446805
+      little-slim-pink-walk02: 199116919
+      little-slim-pink-walk03: -1072604783
+      little-slim-pink-walk04: 1377348433
+      little-slim-pink-walk05: -1004910984
+      little-slim-pink_0: -251981960
+      little-slim-pink_1: 825942372
+      little-slim-pink_10: 916021018
+      little-slim-pink_13: -1089020838
+      little-slim-pink_15: 1266241442
+      little-slim-pink_17: -1327079638
+      little-slim-pink_18: -677085668
+      little-slim-pink_19: 1440473119
+      little-slim-pink_2: 279185737
+      little-slim-pink_20: 832165647
+      little-slim-pink_21: 687992634
+      little-slim-pink_22: 1663025568
+      little-slim-pink_23: -2129295699
+      little-slim-pink_24: 1588451510
+      little-slim-pink_25: -1975180262
+      little-slim-pink_26: 1145882347
+      little-slim-pink_27: 189868806
+      little-slim-pink_28: -340009901
+      little-slim-pink_29: 107684950
+      little-slim-pink_3: 1252375641
+      little-slim-pink_30: 58489933
+      little-slim-pink_31: 1894643857
+      little-slim-pink_32: -1233389477
+      little-slim-pink_34: 1526199960
+      little-slim-pink_36: -2108789748
+      little-slim-pink_39: 148425595
+      little-slim-pink_4: 1926531980
+      little-slim-pink_40: -1987067816
+      little-slim-pink_41: 949006086
+      little-slim-pink_42: 1584104651
+      little-slim-pink_43: 1261427443
+      little-slim-pink_44: -318999391
+      little-slim-pink_45: -1758629566
+      little-slim-pink_46: 879025424
+      little-slim-pink_47: -1531363848
+      little-slim-pink_48: 1864808101
+      little-slim-pink_49: -123341193
+      little-slim-pink_5: -1017687416
+      little-slim-pink_50: -1315344381
+      little-slim-pink_51: 625826756
+      little-slim-pink_52: 462275308
+      little-slim-pink_53: 1639684929
+      little-slim-pink_54: 842010406
+      little-slim-pink_55: 1770005135
+      little-slim-pink_56: -978103592
+      little-slim-pink_57: 1142171268
+      little-slim-pink_58: -1331961638
+      little-slim-pink_59: -2124668260
+      little-slim-pink_6: 1053597019
+      little-slim-pink_60: -176372524
+      little-slim-pink_61: -299363760
+      little-slim-pink_62: 1119248781
+      little-slim-pink_63: 96970859
+      little-slim-pink_64: -791408181
+      little-slim-pink_65: 383330754
+      little-slim-pink_66: 658928843
+      little-slim-pink_67: 1547278917
+      little-slim-pink_68: -1974130070
+      little-slim-pink_69: -1074111558
+      little-slim-pink_7: -438393293
+      little-slim-pink_70: 939889696
+      little-slim-pink_71: 1916724705
+      little-slim-pink_72: 992808007
+      little-slim-pink_73: -1466517024
+      little-slim-pink_74: 452824912
+      little-slim-pink_75: -1000419829
+      little-slim-pink_76: 1854645978
+      little-slim-pink_77: -1517797981
+      little-slim-pink_78: -234411178
+      little-slim-pink_8: 176591754
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

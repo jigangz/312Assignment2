@@ -1,0 +1,1271 @@
+fileFormatVersion: 2
+guid: caccbf84cf400644489bba0b013b7436
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: big slim_walk_01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1050
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43c667a95ed1c14eba0b7b93ed56ce4
+      internalID: -1154504358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_walk_02
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1050
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4036b56fbe95ca547b4f3f8b4a111169
+      internalID: 1788076464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_walk_03
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1050
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a94299cc171c674b8f2444f0e16a763
+      internalID: 1182909456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_walk_04
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1050
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bf95f8f9c4f3a4b919a860a18b9be1
+      internalID: -816916653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_4
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1050
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933795eddf0fc8a4fa706fd46a4d0ec3
+      internalID: -694592499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSlimWalk01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 900
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa7ab16924cf414e9feb6b93cd997fd
+      internalID: -308185125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSlimWalk02
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 900
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99c7c01cb3f3594ab0dda523522a961
+      internalID: -585631444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSlimWalk03
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 900
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdc7ccd9b68fd24f8380cb85932db00
+      internalID: 2089071155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSlimWalk04
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 900
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f095599e0fa484f8c2b97940c9ad3d
+      internalID: -328268413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSlimWalk05
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 901
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2f6950407fd4e47a264a91c219d69b
+      internalID: -1491620509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSlimWalk06
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 900
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdafcb47b0719ed41869a9738e14cc1b
+      internalID: 522997033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_11
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1050
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb3fc82bf3901b46ba31ef46de2d816
+      internalID: 913563313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigSlimWalk07
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 900
+        width: 129
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3775a7f6e31ae0349a7cbd3bff3b6021
+      internalID: -1686362445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 750
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344b692c6ca76ed44ace8b92ebc9cb7e
+      internalID: 621599947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 750
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52043e76ba16b7c4985a09905fa6a8d5
+      internalID: -414542790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_15
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 750
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d15aacb338e57c438691bbfcdf316ad
+      internalID: -1635534424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_16
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 750
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de655723c917e344924557ca15aaf80
+      internalID: -903925801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 750
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc6819f67a16004ab2818cb775f7cfa
+      internalID: 247504011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_18
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 750
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064a4bd7c454abe40853450f16a0152b
+      internalID: 908755309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_19
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 750
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ac06cc1f976214d91980fd5b23e305
+      internalID: -1405637504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_20
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 750
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421080684ca35e24f81953c87cb433f8
+      internalID: -355467884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 600
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede6d9925e926b04c9ae5f9495a65056
+      internalID: -1491006394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 600
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529edf20d905e2e42a4f9aa2a6992792
+      internalID: 407968764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_23
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 600
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1ff70c837d6f04385f96b77b16505c
+      internalID: -1892429469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_24
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 600
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38972b2ae9684d841b8f5a6504dd28a0
+      internalID: -586790140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_25
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 600
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c430eac40b350914797735a42af8c6fe
+      internalID: -994432307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 450
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d254001c3675da4a9e762b6156da962
+      internalID: 1256159898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 450
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d17891843aaca43b8fd4e29c9b58c0
+      internalID: -1268461889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_28
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 450
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbef328c5c2cc0f41907404956d5eddd
+      internalID: 918346438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_29
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 450
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e32ccf04691dd4ea1e38fef1a5cd5e
+      internalID: 2142488030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_30
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 450
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e242de71fde295843a9312217f26a4a6
+      internalID: 533345577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 300
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a73c3a085caa484fa997c16e1f1cc97
+      internalID: 1661988361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 300
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4939c5d7625ff4d96266923e12c7ae
+      internalID: -1446055782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_33
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 300
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38ff4c71e21ad34ea56a5ce3fdec5a4
+      internalID: -329533881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 300
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ffb6b0129242142871e9a72a8bcc16
+      internalID: 2081434667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_35
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 300
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09aa11569a3cf65489087f348b66a2dc
+      internalID: 2000664481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_36
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 300
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289617cb4f5253948a61fa3772aec410
+      internalID: -2061993727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_37
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 300
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445f83a0ba6dc44438f2e50afcae3340
+      internalID: -1772362529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_38
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 300
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d3e6521d7963c41adbe8a8a8f613e2
+      internalID: 548536404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 150
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8b29c1f9b43fc469bf803b5cca62b5
+      internalID: 953310295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_40
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 150
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615b80f670c8e3940a0eb90bb8e9d15f
+      internalID: -1120239830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_41
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 150
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2404382cc0e94184e9d6867aede65f74
+      internalID: -1870006498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_42
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 150
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980ec4276ea79e746b3c25b3dde68f89
+      internalID: -572205040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_43
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 150
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67769ee87dbe34e44bb8a086444ee373
+      internalID: 2052383081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_44
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 150
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ed708ec77af114d843386e8c64720a
+      internalID: -873978818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_45
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 150
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61e06b63d6f5d846afacab6245df6dc
+      internalID: -1486071623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_46
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 150
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04426d1a08e55fe47b5dcf5edcf1795a
+      internalID: 1580628038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_47
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cc949437bc02d429552a7c56f34c7f
+      internalID: 186880997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_48
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaa442e27c806249add860f6f58fca2
+      internalID: -335045261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_49
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19018b068f0dcc744850790ac7ff21a2
+      internalID: -1987891107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f64214e74aea947b82d51d885333a3
+      internalID: 698816222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big slim_51
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 129.25
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaed273ea58be344bf32b6228b1b384
+      internalID: 1354478906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      big slim_11: 913563313
+      big slim_13: 621599947
+      big slim_14: -414542790
+      big slim_15: -1635534424
+      big slim_16: -903925801
+      big slim_17: 247504011
+      big slim_18: 908755309
+      big slim_19: -1405637504
+      big slim_20: -355467884
+      big slim_21: -1491006394
+      big slim_22: 407968764
+      big slim_23: -1892429469
+      big slim_24: -586790140
+      big slim_25: -994432307
+      big slim_26: 1256159898
+      big slim_27: -1268461889
+      big slim_28: 918346438
+      big slim_29: 2142488030
+      big slim_30: 533345577
+      big slim_31: 1661988361
+      big slim_32: -1446055782
+      big slim_33: -329533881
+      big slim_34: 2081434667
+      big slim_35: 2000664481
+      big slim_36: -2061993727
+      big slim_37: -1772362529
+      big slim_38: 548536404
+      big slim_39: 953310295
+      big slim_4: -694592499
+      big slim_40: -1120239830
+      big slim_41: -1870006498
+      big slim_42: -572205040
+      big slim_43: 2052383081
+      big slim_44: -873978818
+      big slim_45: -1486071623
+      big slim_46: 1580628038
+      big slim_47: 186880997
+      big slim_48: -335045261
+      big slim_49: -1987891107
+      big slim_50: 698816222
+      big slim_51: 1354478906
+      big slim_walk_01: -1154504358
+      big slim_walk_02: 1788076464
+      big slim_walk_03: 1182909456
+      big slim_walk_04: -816916653
+      bigSlimWalk01: -308185125
+      bigSlimWalk02: -585631444
+      bigSlimWalk03: 2089071155
+      bigSlimWalk04: -328268413
+      bigSlimWalk05: -1491620509
+      bigSlimWalk06: 522997033
+      bigSlimWalk07: -1686362445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
