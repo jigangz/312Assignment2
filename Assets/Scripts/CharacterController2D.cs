@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
-    [SerializeField] private float speed = 2.0f;
+    [SerializeField] public float speed = 2.0f;
     private Vector2 motionVector;
     public Vector2 lastMotionVector;
     Animator animator;
@@ -47,6 +45,24 @@ public class CharacterController2D : MonoBehaviour
             lastMotionVector = motionVector.normalized;
             animator.SetFloat("lastHorizontal", lastMotionVector.x);
             animator.SetFloat("lastVertical", lastMotionVector.y);
+
+            // 根据移动方向播放对应的行走动画
+            if (horizontal > 0)
+            {
+                animator.Play("WalkRight");
+            }
+            else if (horizontal < 0)
+            {
+                animator.Play("WalkLeft");
+            }
+            else if (vertical > 0)
+            {
+                animator.Play("WalkUp");
+            }
+            else if (vertical < 0)
+            {
+                animator.Play("WalkDown");
+            }
         }
 
         // 当玩家开始移动时播放走路声音
@@ -64,5 +80,9 @@ public class CharacterController2D : MonoBehaviour
     private void MoveCharacter()
     {
         rigidbody2d.velocity = motionVector * speed;
+    }
+    public void SetSpeed(float newSpeed)
+    {
+        speed = newSpeed;
     }
 }
