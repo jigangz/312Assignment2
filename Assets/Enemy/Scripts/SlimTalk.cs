@@ -2,20 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // Add this line
 
 public class SlimTalk : MonoBehaviour
 {
-    public Button nextButton; // ÓÃÓÚ²¥·ÅÎÄ±¾µÄ°´Å¥
-    public Text dialogueText; // ÏÔÊ¾¶Ô»°ÎÄ±¾µÄUIÔªËØ
-    public GameObject backGate; // ×îºóÆôÓÃµÄÓÎÏ·ÎïÌå
+    public Button nextButton; // ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½Ä°ï¿½Å¥
+    public Text dialogueText; // ï¿½ï¿½Ê¾ï¿½Ô»ï¿½ï¿½Ä±ï¿½ï¿½ï¿½UIÔªï¿½ï¿½
+    public GameObject backGate; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½
 
-    private string[] dialogues; // ´æ´¢ËùÓÐ¶Ô»°ÎÄ±¾µÄÊý×é
-    private string[] buttonLabels; // °´Å¥ÉÏÏÔÊ¾µÄÎÄ±¾Êý×é
-    private int currentDialogueIndex = 0; // µ±Ç°ÏÔÊ¾µÄ¶Ô»°Ë÷Òý
+    private string[] dialogues; // ï¿½æ´¢ï¿½ï¿½ï¿½Ð¶Ô»ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    private string[] buttonLabels; // ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½
+    private int currentDialogueIndex = 0; // ï¿½ï¿½Ç°ï¿½ï¿½Ê¾ï¿½Ä¶Ô»ï¿½ï¿½ï¿½ï¿½ï¿½
 
     void Start()
     {
-        // ³õÊ¼»¯¶Ô»°ÎÄ±¾£¬ÕâÀï¿ÉÒÔÌæ»»ÎªÄãµÄ¶Ô»°ÄÚÈÝ
+        // ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½Ô»ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ»»Îªï¿½ï¿½Ä¶Ô»ï¿½ï¿½ï¿½ï¿½ï¿½
         dialogues = new string[] {
             "*cough*...you...you must be the last victim of Genie.",
             "He is full of lies. We, slimes, are the souls of the humans Genie killed...",
@@ -23,15 +24,15 @@ public class SlimTalk : MonoBehaviour
             "The back gate shall now be opened for you."
         };
 
-        // ³õÊ¼»¯°´Å¥ÎÄ±¾£¬È·±£Êý×é³¤¶ÈÓëdialoguesÏàÆ¥Åä
+        // ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Å¥ï¿½Ä±ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ï¿½é³¤ï¿½ï¿½ï¿½ï¿½dialoguesï¿½ï¿½Æ¥ï¿½ï¿½
         buttonLabels = new string[] {
-            "The victim?", // ¶ÔÓ¦µÚÒ»¶Î¶Ô»°
-            "What?", // ¶ÔÓ¦µÚ¶þ¶Î¶Ô»°
-            "I just wanna go...", // ¶ÔÓ¦µÚ¶þ¶Î¶Ô»°
-            "Thank you." // ¶ÔÓ¦×îºóÒ»¶Î¶Ô»°
+            "The victim?", // ï¿½ï¿½Ó¦ï¿½ï¿½Ò»ï¿½Î¶Ô»ï¿½
+            "What?", // ï¿½ï¿½Ó¦ï¿½Ú¶ï¿½ï¿½Î¶Ô»ï¿½
+            "I just wanna go...", // ï¿½ï¿½Ó¦ï¿½Ú¶ï¿½ï¿½Î¶Ô»ï¿½
+            "Thank you." // ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½Ò»ï¿½Î¶Ô»ï¿½
         };
 
-        // ³õÊ¼»¯Ê±ÏÔÊ¾µÚÒ»¶Î¶Ô»°ºÍ°´Å¥ÎÄ±¾
+        // ï¿½ï¿½Ê¼ï¿½ï¿½Ê±ï¿½ï¿½Ê¾ï¿½ï¿½Ò»ï¿½Î¶Ô»ï¿½ï¿½Í°ï¿½Å¥ï¿½Ä±ï¿½
         if (dialogueText != null && dialogues.Length > 0)
         {
             dialogueText.text = dialogues[0];
@@ -42,7 +43,7 @@ public class SlimTalk : MonoBehaviour
             nextButton.onClick.AddListener(NextDialogue);
         }
 
-        // Ä¬ÈÏÇé¿öÏÂ£¬backGate²»ÆôÓÃ
+        // Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½backGateï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         if (backGate != null)
         {
             backGate.SetActive(false);
@@ -51,23 +52,50 @@ public class SlimTalk : MonoBehaviour
 
     void NextDialogue()
     {
-        // µ±µã»÷°´Å¥Ê±£¬ÒÆ¶¯µ½ÏÂÒ»¶Î¶Ô»°
-        currentDialogueIndex++;
-        if (currentDialogueIndex < dialogues.Length)
+//        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¥Ê±ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Î¶Ô»ï¿½
+//        currentDialogueIndex++;
+//        if (currentDialogueIndex < dialogues.Length)
+//        {
+//            // ï¿½ï¿½ï¿½Â¶Ô»ï¿½ï¿½Ä±ï¿½ï¿½Í°ï¿½Å¥ï¿½Ä±ï¿½
+//            dialogueText.text = dialogues[currentDialogueIndex];
+//            nextButton.GetComponentInChildren<Text>().text = buttonLabels[currentDialogueIndex];
+//        }
+//        else
+//        {
+//            // ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Î¶Ô»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½backGateï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½
+//            if (backGate != null)
+//            {
+//                backGate.SetActive(true);
+//            }
+//            // ï¿½ï¿½ï¿½Ò¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø»ï¿½ï¿½ï¿½ï¿½Ù¶Ô»ï¿½ï¿½ï¿½
+//            gameObject.SetActive(false); // ï¿½ï¿½ï¿½ç£¬ï¿½ï¿½ï¿½Ø¶Ô»ï¿½ï¿½ï¿½
+//        }
+
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¥Ê±ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Î¶Ô»ï¿½
+    currentDialogueIndex++;
+    if (currentDialogueIndex < dialogues.Length)
+    {
+        // ï¿½ï¿½ï¿½Â¶Ô»ï¿½ï¿½Ä±ï¿½ï¿½Í°ï¿½Å¥ï¿½Ä±ï¿½
+        dialogueText.text = dialogues[currentDialogueIndex];
+        nextButton.GetComponentInChildren<Text>().text = buttonLabels[currentDialogueIndex];
+    }
+    else
+    {
+        // ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Î¶Ô»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½backGateï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½
+        if (backGate != null)
         {
-            // ¸üÐÂ¶Ô»°ÎÄ±¾ºÍ°´Å¥ÎÄ±¾
-            dialogueText.text = dialogues[currentDialogueIndex];
-            nextButton.GetComponentInChildren<Text>().text = buttonLabels[currentDialogueIndex];
+            backGate.SetActive(true);
         }
-        else
+        // ï¿½ï¿½ï¿½Ò¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø»ï¿½ï¿½ï¿½ï¿½Ù¶Ô»ï¿½ï¿½ï¿½
+        gameObject.SetActive(false); // ï¿½ï¿½ï¿½ç£¬ï¿½ï¿½ï¿½Ø¶Ô»ï¿½ï¿½ï¿½
+
+        // Check if the last dialogue has been reached
+        if (currentDialogueIndex == dialogues.Length)
         {
-            // Èç¹ûÒÑ¾­ÊÇ×îºóÒ»¶Î¶Ô»°£¬ÆôÓÃbackGateÓÎÏ·¶ÔÏó
-            if (backGate != null)
-            {
-                backGate.SetActive(true);
-            }
-            // ²¢ÇÒ¿ÉÄÜÒþ²Ø»òÏú»Ù¶Ô»°¿ò
-            gameObject.SetActive(false); // ÀýÈç£¬Òþ²Ø¶Ô»°¿ò
+            // Load the "BossScene" after the last dialogue
+            SceneManager.LoadScene("BossScene");
         }
+    }
+
     }
 }

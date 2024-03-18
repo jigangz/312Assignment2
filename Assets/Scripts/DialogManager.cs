@@ -55,7 +55,7 @@ public class DialogManager : MonoBehaviour
     {
         isDisplayingDialogue = false;
         dialogPanel.SetActive(false);
-        // Ê¹ÓÃ×Ö·û´®"Act5"×÷Îª³¡¾°Ãû
+        // Ê¹ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½"Act5"ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
        // SceneManager.LoadScene("Act6");
     }
 

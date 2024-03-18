@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Maze.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 0192ebbeb105c0642a3804a06e765023
+  - enabled: 1
+    path: Assets/Scenes/Maze.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 5590d0ec12dc384489298c1f4079d74f
@@ -19,7 +19,7 @@ EditorBuildSettings:
     guid: b41507f5e9ce986489b555108883866f
   - enabled: 1
     path: Assets/Scenes/Maze.unity
-    guid: 650aae1a5e8509e45b93063072503aec
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: d91a362677cbbab449d92aec306a043c
@@ -53,4 +53,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Enemy/Scenes/EnemyScene.unity
     guid: 64364510f1072ef488c3724a546c1144
+  - enabled: 1
+    path: Assets/Scenes/Act1.unity
+    guid: e323004e190da3b489049b4d7a4c0d0c
+  - enabled: 1
+    path: Assets/Scenes/Act2.unity
+    guid: d356b339f3d7b0147ba09e8d13a98e34
+  - enabled: 1
+    path: Assets/Scenes/Act3.unity
+    guid: c19ce60bfda87684ea10252944e89dea
+  - enabled: 1
+    path: Assets/Scenes/Act4.unity
+    guid: a4dc343038c8aa64bbf74151f4090dcd
+  - enabled: 1
+    path: Assets/Scenes/Act6.unity
+    guid: ed614c2f28803684ca2f76f11e2e34d9
+  - enabled: 1
+    path: Assets/Scenes/Choice.unity
+    guid: 5880bb0be8a30d64f887a49bfac4a15a
+  - enabled: 1
+    path: Assets/Scenes/Endingone.unity
+    guid: dda46d01dc17f8c4e934ebefe68861bc
+  - enabled: 1
+    path: Assets/Scenes/Endingtwo.unity
+    guid: 73d3f32889f416341a2bc8904c8206a7
   m_configObjects: {}
