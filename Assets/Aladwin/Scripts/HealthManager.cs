@@ -13,16 +13,18 @@ public class HealthManager : MonoBehaviour
     public Image powerImage; // 能量状态条
 
     private int hpValue = 100; // 初始HP值
-   // private Character currentCharacter; // 当前角色引用
-    private bool isRecovering; // 是否在恢复能量
-
-    //public static event Action<int> OnPlayerHealthReduced;
     public event Action OnPlayerHealthReduced; // 事件声明
-    
+
+    private float powerValue = 100f; // 能量初始值
+    private bool isRecovering = false;
+    private float powerRecoveryRate = 20f; // 能量恢复速率，每秒恢复量
+    private float powerDrainRate = 50f; // 能量消耗速率，每秒消耗量
+
     private void Start()
     {
         UpdateHPDisplay();
         UpdateHealthBar((float)hpValue / 100); // 假设最大HP是100
+        UpdatePowerBar(powerValue / 100f);
     }
 
     private void Update()
@@ -36,13 +38,7 @@ public class HealthManager : MonoBehaviour
         // 能量恢复逻辑
         if (isRecovering)
         {
-            //float percentage = currentCharacter.currentPower / currentCharacter.maxPower;
-           // powerImage.fillAmount = percentage;
-
-            //if (percentage >= 1)
-            //{
-                //isRecovering = false;
-            //}
+            RecoverPower();
         }
     }
 
@@ -76,9 +72,25 @@ public class HealthManager : MonoBehaviour
     }
 
     // 假设有一个方法来更新当前角色的能量状态
-    //public void OnPowerChange(Character character)
-   // {
-       // isRecovering = true;
-   //     currentCharacter = character;
-    //}
+
+    public void DrainPower()
+    {
+        powerValue -= powerDrainRate * Time.deltaTime;
+        powerValue = Mathf.Clamp(powerValue, 0, 100);
+        UpdatePowerBar(powerValue / 100f);
+        isRecovering = powerValue > 0;
+    }
+
+    public void RecoverPower()
+    {
+        powerValue += powerRecoveryRate * Time.deltaTime;
+        powerValue = Mathf.Clamp(powerValue, 0, 100);
+        UpdatePowerBar(powerValue / 100f);
+    }
+
+    private void UpdatePowerBar(float percentage)
+    {
+        powerImage.fillAmount = percentage;
+    }
+
 }
