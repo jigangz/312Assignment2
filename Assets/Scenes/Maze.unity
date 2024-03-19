@@ -4541,6 +4541,7 @@ MonoBehaviour:
   attackRange: 1
   lastAttackDirection: {x: 0, y: 0}
   attackSize: 1
+  healthManager: {fileID: 1263279202}
 --- !u!1 &928283481
 GameObject:
   m_ObjectHideFlags: 0

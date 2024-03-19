@@ -10,14 +10,18 @@ public class PlayerMine : MonoBehaviour
     public Vector2 lastAttackDirection; // 上一次攻击方向
     public float attackSize = 1.0f; // 玩家对象，通过编辑器指定
 
+    public HealthManager healthManager;
+
     void Start()
     {
         animator = player.GetComponent<Animator>();
+
     }
 
     void Update()
     {
         CheckInputAndUpdateDirection();
+
     }
 
     void CheckInputAndUpdateDirection()
@@ -27,6 +31,7 @@ public class PlayerMine : MonoBehaviour
             animator.Play("digRight");
             lastAttackDirection = Vector2.right;
             CreateAttackCollider(Vector2.right);
+            healthManager.DrainPower(); // 消耗能量
         }
         else if (Input.GetKeyDown(KeyCode.A))
         {
@@ -75,4 +80,7 @@ public class PlayerMine : MonoBehaviour
             Gizmos.DrawWireCube(spawnPosition, new Vector3(attackSize, attackSize, 0));
         }
     }
+
+
+    
 }
