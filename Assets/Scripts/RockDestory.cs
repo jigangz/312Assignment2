@@ -10,6 +10,9 @@ public class RockDestroy : ToolHit
     public GameObject NotePrefab;
     public GameObject PaperPrefab;
     public GameObject LetterPrefab;
+    public GameObject CherryPrefab;
+    public GameObject BreadrPrefab;
+    public GameObject ApplePrefab;
     public AudioSource destroySound; // 引用AudioSource组件
     public bool isSpecial = false;
     public bool isSuper = false;
@@ -17,6 +20,9 @@ public class RockDestroy : ToolHit
     public bool isNote = false;
     public bool isPaper = false;
     public bool isLetter = false;
+    public bool isCherry = false;
+    public bool isBread = false;
+    public bool isApple = false;
 
     public override void Hit()
     {
@@ -48,6 +54,19 @@ public class RockDestroy : ToolHit
         if (isLetter)
         {
             Instantiate(LetterPrefab, transform.position, Quaternion.identity);
+        }
+        if (isCherry)
+        {
+            Instantiate(CherryPrefab, transform.position, Quaternion.identity);
+
+        }
+        if (isBread)
+        {
+            Instantiate(BreadrPrefab, transform.position, Quaternion.identity);
+        }
+        if (isApple)
+        {
+            Instantiate(ApplePrefab, transform.position, Quaternion.identity);
         }
 
         // 确保声音播放完毕后再销毁对象

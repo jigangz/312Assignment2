@@ -22,29 +22,32 @@ public class PlayerMine : MonoBehaviour
 
     void CheckInputAndUpdateDirection()
     {
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
-            animator.Play("digRight");
-            lastAttackDirection = Vector2.right;
-            CreateAttackCollider(Vector2.right);
-        }
-        else if (Input.GetKeyDown(KeyCode.A))
-        {
-            animator.Play("digLeft");
-            lastAttackDirection = Vector2.left;
-            CreateAttackCollider(Vector2.left);
-        }
-        else if (Input.GetKeyDown(KeyCode.W))
-        {
-            animator.Play("digUp");
-            lastAttackDirection = Vector2.up;
-            CreateAttackCollider(Vector2.up);
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            animator.Play("digDown");
-            lastAttackDirection = Vector2.down;
-            CreateAttackCollider(Vector2.down);
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                animator.Play("digRight");
+                lastAttackDirection = Vector2.right;
+                CreateAttackCollider(Vector2.right);
+            }
+            else if (Input.GetKeyDown(KeyCode.A))
+            {
+                animator.Play("digLeft");
+                lastAttackDirection = Vector2.left;
+                CreateAttackCollider(Vector2.left);
+            }
+            else if (Input.GetKeyDown(KeyCode.W))
+            {
+                animator.Play("digUp");
+                lastAttackDirection = Vector2.up;
+                CreateAttackCollider(Vector2.up);
+            }
+            else if (Input.GetKeyDown(KeyCode.S))
+            {
+                animator.Play("digDown");
+                lastAttackDirection = Vector2.down;
+                CreateAttackCollider(Vector2.down);
+            }
         }
     }
 

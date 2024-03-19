@@ -151,6 +151,9 @@ MonoBehaviour:
   NotePrefab: {fileID: 7699025674252239400, guid: 136a746512aef1d4e843c3200088b907, type: 3}
   PaperPrefab: {fileID: 8680058744658894991, guid: 9ad07d0fe3d0ecd48b6dee7f7613e956, type: 3}
   LetterPrefab: {fileID: 9206458312228856475, guid: 39b62ad96104859469771955f3f85f20, type: 3}
+  CherryPrefab: {fileID: 7159535852212547827, guid: 3fc8c92a28af7f1469c62dc983bc6aef, type: 3}
+  BreadrPrefab: {fileID: 5589104546390677230, guid: 3fea79e0a460bcc45809550811d253c0, type: 3}
+  ApplePrefab: {fileID: 5161266027384613656, guid: c94585578b87591448126cf8a70595b9, type: 3}
   destroySound: {fileID: 6420836568498026849}
   isSpecial: 0
   isSuper: 0
@@ -158,6 +161,9 @@ MonoBehaviour:
   isNote: 0
   isPaper: 0
   isLetter: 0
+  isCherry: 0
+  isBread: 0
+  isApple: 0
 --- !u!82 &6420836568498026849
 AudioSource:
   m_ObjectHideFlags: 0

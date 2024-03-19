@@ -3,7 +3,14 @@ guid: dcdeb0daccdcff74f8d0053f1388c7a5
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - lampPrefab: {fileID: 8920911610199889316, guid: 54fb78e943f4d714084f89d6e56a7577, type: 3}
+  - cavePrefab: {instanceID: 0}
+  - holePrefab: {instanceID: 0}
+  - NotePrefab: {fileID: 7699025674252239400, guid: 136a746512aef1d4e843c3200088b907, type: 3}
+  - PaperPrefab: {fileID: 8680058744658894991, guid: 9ad07d0fe3d0ecd48b6dee7f7613e956, type: 3}
+  - LetterPrefab: {fileID: 9206458312228856475, guid: 39b62ad96104859469771955f3f85f20, type: 3}
+  - destroySound: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
